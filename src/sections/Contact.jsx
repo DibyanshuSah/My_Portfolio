@@ -35,7 +35,7 @@ const Contact = () => {
           href="mailto:dibyanshusah0@gmail.com"
           className="flex items-center gap-2 text-gray-300 hover:text-blue-400 transition"
         >
-          <FaEnvelope className="text-blue-400 text-2xl" /> Email
+          <FaEnvelope className="text-blue-400 text-2xl" /> dibyanshusah0@gmail.com
         </a>
 
         <a
