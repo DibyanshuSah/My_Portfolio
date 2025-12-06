@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../assets/Profile/Photo.jpg";
+import profile from "../assets/Profile/Profile_Photo_new.png";
 
 const About = () => {
   return (
@@ -7,8 +7,9 @@ const About = () => {
       id="about" 
       className="py-20 px-6 max-w-5xl mx-auto text-white"
     >
-<h2 className="text-4xl font-bold text-center mb-3">About Me</h2>
-<div className="w-24 h-1 bg-blue-500 mx-auto mb-8 rounded-full"></div>
+      {/* Heading */}
+      <h2 className="text-4xl font-bold text-center mb-3">About Me</h2>
+      <div className="w-24 h-1 bg-blue-500 mx-auto mb-8 rounded-full"></div>
 
       <div 
         className="
@@ -24,8 +25,9 @@ const About = () => {
             w-52 h-52 md:w-56 md:h-56 
             rounded-full object-cover 
             border-4 border-green-500 
-            shadow-[0_0_25px_#00ff00] 
+            shadow-[0_0_25px_#00ff00]
           "
+          alt="Profile"
         />
 
         {/* ABOUT TEXT */}
