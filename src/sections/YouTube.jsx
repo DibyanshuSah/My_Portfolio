@@ -41,7 +41,7 @@ const YouTube = () => {
 
         {/* Stats */}
         <p className="text-gray-400 mb-4">
-          335+ subscribers • 22+ videos
+          345+ subscribers • 22+ videos
         </p>
 
         {/* Description */}
