@@ -31,7 +31,7 @@ const Hero = () => {
 
       {/* Direct Download CV */}
       <a
-        href="https://drive.google.com/uc?export=download&id=1udo5txK8ddlG7jGM2PTsp7IGDPukrxN4"
+        href="https://drive.google.com/file/d/1KEJFHKDhLHQxLtoaDQBLJTAGWVT3hy4O/view?usp=sharing"
         className="
           bg-blue-600 px-7 py-3 rounded-lg font-semibold
           hover:bg-blue-500 transition
