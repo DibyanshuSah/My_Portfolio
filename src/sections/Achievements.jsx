@@ -18,13 +18,13 @@ const achievements = [
   {
     title: "LeetCode",
     description:
-      "Rating: 1509 | 300+ DSA Problems Solved | Active competitive programmer",
+      "Rating: 1509 | 350+ DSA Problems Solved | Active competitive programmer",
     link: "https://leetcode.com/u/Rishu_05/",
   },
   {
     title: "CodeChef",
     description:
-      "Peak Rating: 1224 | 450+ Problems Solved | Active competitive programmer",
+      "Peak Rating: 1379 | 450+ Problems Solved | Active competitive programmer",
     link: "https://www.codechef.com/users/rishu2202",
   },
 ];
