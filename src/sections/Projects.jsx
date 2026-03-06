@@ -53,7 +53,7 @@ const ProjectCard = ({
 
     {/* Buttons */}
     <div className="mt-6 flex gap-4 flex-wrap">
-      {/* GitHub (BLUE) */}
+      {/* GitHub */}
       <a
         href={link}
         target="_blank"
@@ -73,7 +73,7 @@ const ProjectCard = ({
         GitHub
       </a>
 
-      {/* Website (GREEN GLOW) */}
+      {/* Website */}
       {demoLink && (
         <a
           href={demoLink}
@@ -118,11 +118,11 @@ const Projects = () => {
         <ProjectCard
           title="SkillForge-AI"
           subtitle="GenAI-Powered Adaptive Learning Platform"
-          description="SkillForge AI is a GenAI-powered adaptive learning platform built using a Retrieval Augmented Generation (RAG) architecture. Users can paste study material or notes as text and ask contextual questions with difficulty-based control and multiple learning modes. The system uses a local Phi-3 Large Language Model (GGUF) combined with FAISS-based vector search to retrieve relevant context before generating responses, ensuring accurate and grounded answers without relying on any paid APIs. The project is fully deployed on Hugging Face Spaces."
+          description="SkillForge AI is a GenAI-powered adaptive learning platform built using a Retrieval Augmented Generation (RAG) architecture. Users can paste study material or notes as text and ask contextual questions with difficulty-based control and multiple learning modes. The system uses a local Phi-3 Large Language Model (GGUF) combined with FAISS-based vector search to retrieve relevant context before generating responses."
           tags={[
             "GenAI",
             "RAG",
-            "LLM Inference",
+            "LLM",
             "Phi-3",
             "FAISS",
             "Vector DB",
@@ -136,7 +136,7 @@ const Projects = () => {
         <ProjectCard
           title="CVisionAI"
           subtitle="AI-Powered Resume Intelligence Engine"
-          description="CVisionAI is an automated resume screening system that reads PDF resumes, extracts structured text, and classifies candidates into relevant job categories using machine learning techniques. It leverages TF-IDF feature extraction with KNN-based classification to assist recruiters in quickly shortlisting candidates, reducing manual screening effort while improving consistency and efficiency in the hiring process."
+          description="CVisionAI is an automated resume screening system that reads PDF resumes, extracts structured text, and classifies candidates into relevant job categories using machine learning techniques. It leverages TF-IDF feature extraction with KNN-based classification to assist recruiters in quickly shortlisting candidates."
           tags={[
             "Python",
             "TF-IDF",
@@ -165,19 +165,21 @@ const Projects = () => {
           demoLink="https://huggingface.co/spaces/rishusah/fashion-recommender"
         />
 
-        {/* Insurance Eligibility */}
+        {/* BrainFlash */}
         <ProjectCard
-          title="Insurance Eligibility Prediction"
-          subtitle="Machine Learning Classification Model"
-          description="A machine learning–based predictive system that determines customer insurance eligibility using demographic and financial attributes. Multiple models including Logistic Regression, Random Forest, and SVM are evaluated for data-driven decision support."
+          title="BrainFlash"
+          subtitle="Memory Training Game"
+          description="BrainFlash is an interactive brain training web game designed to test and improve short-term memory. Players must quickly memorize numbers that flash on the screen and type them back correctly. The game progressively increases difficulty and also includes a grid-based recall challenge. Best scores are stored locally and the game is optimized for smooth performance across devices."
           tags={[
-            "Python",
-            "Pandas",
-            "NumPy",
-            "Scikit-learn",
-            "Matplotlib",
+            "React",
+            "Vite",
+            "JavaScript",
+            "CSS",
+            "React Router",
+            "LocalStorage",
           ]}
-          link="https://github.com/DibyanshuSah/Insurance-Eligibility-Prediction-Model"
+          link="https://github.com/DibyanshuSah/BrainFlash-game"
+          demoLink="https://brainflash.vercel.app/"
         />
 
       </div>
