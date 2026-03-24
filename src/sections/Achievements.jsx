@@ -1,46 +1,59 @@
 import React from "react";
-import { FaAward } from "react-icons/fa";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaAward, FaExternalLinkAlt } from "react-icons/fa";
 
 const achievements = [
+  {
+    title: "Coursera Certification",
+    description:
+      "Completed a professional course on Coursera, gaining in-depth knowledge and practical skills in the domain.",
+    link: "https://drive.google.com/file/d/1KgFMLBWaLiVCxSulVuFVuc4BdOM90zRj/view?usp=sharing",
+    type: "certificate",
+  },
   {
     title: "Infosys AI Certification",
     description:
       "Gained a solid understanding of core Artificial Intelligence concepts, including ML fundamentals and real-world industry applications.",
     link: "https://drive.google.com/file/d/1ZN56VorSKBYtrHizPT3aSFbpYTtMIkJK/view?usp=sharing",
+    type: "certificate",
   },
   {
     title: "Infosys NLP Certification",
     description:
       "Learned essential NLP techniques for processing and interpreting human language, including sentiment analysis and text preprocessing.",
     link: "https://drive.google.com/file/d/1A48MXwJ-Zcbm6MGmcZw1068H74P1gugW/view?usp=sharing",
+    type: "certificate",
   },
   {
     title: "LeetCode",
     description:
       "Rating: 1516 | 350+ DSA Problems Solved | Active competitive programmer",
     link: "https://leetcode.com/u/Rishu_05/",
+    type: "profile",
   },
   {
     title: "CodeChef",
     description:
       "Peak Rating: 1406 | 450+ Problems Solved | Active competitive programmer",
     link: "https://www.codechef.com/users/rishu2202",
+    type: "profile",
   },
 ];
 
 const Achievements = () => {
   return (
-    <section id="achievements" className="py-20 px-6 max-w-6xl mx-auto text-white">
-
+    <section
+      id="achievements"
+      className="py-20 px-6 max-w-6xl mx-auto text-white"
+    >
       {/* Heading */}
       <h2 className="text-4xl font-bold text-center">
         Achievements & Certifications
       </h2>
 
-      {/* Blue Underline (Centered) */}
+      {/* Underline */}
       <div className="w-32 h-1 bg-blue-500 mx-auto mt-2 mb-12 rounded-full"></div>
 
+      {/* Grid */}
       <div className="grid md:grid-cols-2 gap-8">
         {achievements.map((item, index) => (
           <div
@@ -55,7 +68,9 @@ const Achievements = () => {
           >
             <div className="flex items-center gap-3 mb-3">
               <FaAward className="text-blue-400 text-2xl" />
-              <h3 className="text-xl font-semibold text-blue-300">{item.title}</h3>
+              <h3 className="text-xl font-semibold text-blue-300">
+                {item.title}
+              </h3>
             </div>
 
             <p className="text-gray-300 mb-4">{item.description}</p>
@@ -63,9 +78,10 @@ const Achievements = () => {
             <a
               href={item.link}
               target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300"
             >
-              {item.title === "LeetCode" || item.title === "CodeChef"
+              {item.type === "profile"
                 ? "View Profile"
                 : "View Certificate"}
               <FaExternalLinkAlt />
