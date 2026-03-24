@@ -5,7 +5,7 @@ const achievements = [
   {
     title: "Coursera Certification",
     description:
-      "Completed Unsupervised Learning, Recommenders & Reinforcement Learning by DeepLearning.AI & Stanford Online. Covered clustering, anomaly detection, recommender systems, and reinforcement learning.",
+      "Completed Stanford & DeepLearning.AI course on Unsupervised Learning, Recommenders, and Reinforcement Learning.",
     link: "https://drive.google.com/file/d/1KgFMLBWaLiVCxSulVuFVuc4BdOM90zRj/view?usp=sharing",
     type: "certificate",
   },
