@@ -110,7 +110,7 @@ const Projects = () => {
         <ProjectCard
           title="Aegis Forensics"
           subtitle="DFIR Triage & File Analysis Tool"
-          description="Aegis Forensics is a lightweight Digital Forensics & Incident Response (DFIR) triage tool designed for rapid inspection of suspicious files. It performs multi-format analysis including PDFs, images, binaries, documents, and archives, extracting indicators such as metadata, embedded strings, and structural anomalies. The system provides intelligent risk classification (Low, Medium, High) to support early-stage incident response and security consulting workflows."
+          description="Aegis Forensics is a lightweight DFIR triage tool for rapid analysis of suspicious files. It supports multiple formats including PDFs, images, binaries, documents, and archives, extracting key forensic indicators such as metadata, strings, and structural anomalies, along with intelligent risk classification (Low, Medium, High)."
           tags={[
             "DFIR",
             "Cybersecurity",
