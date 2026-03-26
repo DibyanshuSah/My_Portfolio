@@ -113,9 +113,7 @@ const Projects = () => {
           description="Aegis Forensics is a lightweight Digital Forensics and Incident Response (DFIR) triage tool for rapid analysis of suspicious files (.pdf, .jpg, .png, .exe, .docx, .zip). It supports multi-format inspection and extracts key forensic indicators such as metadata, embedded strings, and structural anomalies, along with intelligent risk classification (Low, Medium, High)."
           tags={[
             "DFIR",
-            "Cybersecurity",
             "Forensics",
-            "Incident Response",
             "Malware Analysis",
             "Python",
           ]}
