@@ -19,7 +19,6 @@ const ProjectCard = ({
       hover:shadow-[0_0_18px_rgba(59,130,246,0.55)]
     "
   >
-    {/* Title */}
     <h3 className="text-2xl font-semibold text-blue-300">
       {title}
     </h3>
@@ -28,12 +27,10 @@ const ProjectCard = ({
       {subtitle}
     </p>
 
-    {/* Description */}
     <p className="mt-4 text-gray-300 leading-relaxed">
       {description}
     </p>
 
-    {/* Tags */}
     <div className="flex flex-wrap gap-2 mt-4">
       {tags.map((tag, i) => (
         <span
@@ -51,9 +48,7 @@ const ProjectCard = ({
       ))}
     </div>
 
-    {/* Buttons */}
     <div className="mt-6 flex gap-4 flex-wrap">
-      {/* GitHub */}
       <a
         href={link}
         target="_blank"
@@ -73,7 +68,6 @@ const ProjectCard = ({
         GitHub
       </a>
 
-      {/* Website */}
       {demoLink && (
         <a
           href={demoLink}
@@ -105,20 +99,34 @@ const Projects = () => {
       id="projects"
       className="py-20 px-6 max-w-6xl mx-auto text-white"
     >
-      {/* Heading */}
       <h2 className="text-4xl font-bold text-center mb-6">
         Featured Projects
       </h2>
       <div className="w-28 h-1 bg-blue-500 mx-auto mb-12"></div>
 
-      {/* Project Grid */}
       <div className="grid md:grid-cols-2 gap-10">
+
+        {/* 🔥 Aegis Forensics */}
+        <ProjectCard
+          title="Aegis Forensics"
+          subtitle="DFIR Triage & File Analysis Tool"
+          description="Aegis Forensics is a lightweight Digital Forensics and Incident Response (DFIR) triage tool for rapid analysis of suspicious files (.pdf, .jpg, .png, .exe, .docx, .zip). It supports multi-format inspection and extracts key forensic indicators such as metadata, embedded strings, and structural anomalies, along with intelligent risk classification (Low, Medium, High)."
+          tags={[
+            "DFIR",
+            "Cybersecurity",
+            "Forensics",
+            "Incident Response",
+            "Malware Analysis",
+            "Python",
+          ]}
+          link="https://github.com/DibyanshuSah/aegis-forensics"
+        />
 
         {/* SkillForge-AI */}
         <ProjectCard
           title="SkillForge-AI"
           subtitle="GenAI-Powered Adaptive Learning Platform"
-          description="SkillForge AI is a GenAI-powered adaptive learning platform built using a Retrieval Augmented Generation (RAG) architecture. Users can paste study material or notes as text and ask contextual questions with difficulty-based control and multiple learning modes. The system uses a local Phi-3 Large Language Model (GGUF) combined with FAISS-based vector search to retrieve relevant context before generating responses."
+          description="SkillForge AI is a GenAI-powered adaptive learning platform built using a Retrieval Augmented Generation (RAG) architecture..."
           tags={[
             "GenAI",
             "RAG",
@@ -136,12 +144,11 @@ const Projects = () => {
         <ProjectCard
           title="CVisionAI"
           subtitle="AI-Powered Resume Intelligence Engine"
-          description="CVisionAI is an automated resume screening system that reads PDF resumes, extracts structured text, and classifies candidates into relevant job categories using machine learning techniques. It leverages TF-IDF feature extraction with KNN-based classification to assist recruiters in quickly shortlisting candidates."
+          description="CVisionAI is an automated resume screening system that reads PDF resumes and classifies candidates using ML."
           tags={[
             "Python",
             "TF-IDF",
             "KNN",
-            "PyPDF2",
             "Streamlit",
             "Scikit-learn",
           ]}
@@ -153,13 +160,12 @@ const Projects = () => {
         <ProjectCard
           title="StyleSense"
           subtitle="AI-Based Fashion Recommendation System"
-          description="StyleSense is a deep learning–powered fashion recommendation system that suggests visually similar clothing items from an uploaded image. It leverages ResNet50 for feature extraction and uses similarity matching to retrieve the most relevant results. Deployed with Streamlit, it provides a simple interface for instant recommendations."
+          description="StyleSense is a deep learning–powered fashion recommendation system that suggests visually similar clothing items from an uploaded image."
           tags={[
-            "Python",
             "TensorFlow",
             "ResNet50",
-            "Streamlit",
             "Deep Learning",
+            "Streamlit",
           ]}
           link="https://github.com/DibyanshuSah/Fashion-Recommendation-System"
           demoLink="https://huggingface.co/spaces/rishusah/fashion-recommender"
@@ -169,14 +175,11 @@ const Projects = () => {
         <ProjectCard
           title="BrainFlash"
           subtitle="Memory Training Game"
-          description="BrainFlash is an interactive brain training web game designed to test and improve short-term memory. Players must quickly memorize numbers that flash on the screen and type them back correctly. The game progressively increases difficulty and also includes a grid-based recall challenge. Best scores are stored locally and the game is optimized for smooth performance across devices."
+          description="BrainFlash is an interactive brain training web game designed to improve short-term memory."
           tags={[
             "React",
-            "Vite",
             "JavaScript",
-            "CSS",
-            "React Router",
-            "LocalStorage",
+            "Game Dev",
           ]}
           link="https://github.com/DibyanshuSah/BrainFlash-game"
           demoLink="https://brainflash.vercel.app/"
