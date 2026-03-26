@@ -167,7 +167,6 @@ const Projects = () => {
           link="https://github.com/DibyanshuSah/Fashion-Recommendation-System"
           demoLink="https://huggingface.co/spaces/rishusah/fashion-recommender"
         />
-
       </div>
     </section>
   );
