@@ -125,7 +125,7 @@ const Projects = () => {
         <ProjectCard
           title="SkillForge-AI"
           subtitle="GenAI-Powered Adaptive Learning Platform"
-          description="SkillForge AI is a GenAI-powered adaptive learning platform built using a Retrieval Augmented Generation (RAG) architecture..."
+          description="SkillForge-AI is a GenAI-powered adaptive learning platform built on a Retrieval Augmented Generation (RAG) architecture. It enables users to interact with their study material through contextual Q&A, delivering accurate and personalized responses using LLMs and vector-based retrieval."
           tags={[
             "GenAI",
             "RAG",
@@ -142,7 +142,7 @@ const Projects = () => {
         <ProjectCard
           title="CVisionAI"
           subtitle="AI-Powered Resume Intelligence Engine"
-          description="CVisionAI is an automated resume screening system that reads PDF resumes and classifies candidates using ML."
+          description="CVisionAI is an AI-powered resume screening system that extracts structured data from PDF resumes and classifies candidates into relevant job roles using machine learning, enabling faster and more efficient candidate shortlisting."
           tags={[
             "Python",
             "TF-IDF",
