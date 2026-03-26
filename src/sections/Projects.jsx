@@ -106,13 +106,14 @@ const Projects = () => {
 
       <div className="grid md:grid-cols-2 gap-10">
 
-        {/* 🔥 Aegis Forensics */}
+        {/* Aegis Forensics */}
         <ProjectCard
           title="Aegis Forensics"
           subtitle="DFIR Triage & File Analysis Tool"
           description="Aegis Forensics is a lightweight Digital Forensics and Incident Response (DFIR) triage tool for rapid analysis of suspicious files (.pdf, .jpg, .png, .exe, .docx, .zip). It supports multi-format inspection and extracts key forensic indicators such as metadata, embedded strings, and structural anomalies, along with intelligent risk classification (Low, Medium, High)."
           tags={[
             "DFIR",
+            "Cybersecurity",
             "Forensics",
             "Malware Analysis",
             "Python",
@@ -132,7 +133,6 @@ const Projects = () => {
             "Phi-3",
             "FAISS",
             "Vector DB",
-            "Hugging Face",
           ]}
           link="https://github.com/DibyanshuSah/skillforge-AI"
           demoLink="https://huggingface.co/spaces/rishusah/skillforge-ai"
@@ -148,7 +148,6 @@ const Projects = () => {
             "TF-IDF",
             "KNN",
             "Streamlit",
-            "Scikit-learn",
           ]}
           link="https://github.com/DibyanshuSah/Resume-Screening-With-Python"
           demoLink="https://resume-screening-with-python-kauwqmhgxqbraz6o3bphzz.streamlit.app/"
@@ -167,20 +166,6 @@ const Projects = () => {
           ]}
           link="https://github.com/DibyanshuSah/Fashion-Recommendation-System"
           demoLink="https://huggingface.co/spaces/rishusah/fashion-recommender"
-        />
-
-        {/* BrainFlash */}
-        <ProjectCard
-          title="BrainFlash"
-          subtitle="Memory Training Game"
-          description="BrainFlash is an interactive brain training web game designed to improve short-term memory."
-          tags={[
-            "React",
-            "JavaScript",
-            "Game Dev",
-          ]}
-          link="https://github.com/DibyanshuSah/BrainFlash-game"
-          demoLink="https://brainflash.vercel.app/"
         />
 
       </div>
