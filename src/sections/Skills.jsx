@@ -22,6 +22,7 @@ import sqlmapImg from "../assets/skills/sqlmap.png";
 import niktoImg from "../assets/skills/nikto.png";
 import windowsImg from "../assets/skills/windows.png";
 import linuxImg from "../assets/skills/linux.png";
+import autopsyImg from "../assets/skills/autopsy.png"
 
 
 // ------------------ REUSABLE PILL COMPONENT ------------------ //
@@ -113,6 +114,7 @@ const Skills = () => {
               { name: "Nmap", icon: nmapImg },
               { name: "SQLMap", icon: sqlmapImg },
               { name: "Nikto", icon: niktoImg },
+              { name: "Autopsy", icon: autopsyImg },
             ]}
           />
 
