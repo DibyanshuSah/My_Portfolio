@@ -153,7 +153,7 @@ const Projects = () => {
         <ProjectCard
           title="StyleSense"
           subtitle="AI-Based Fashion Recommendation System"
-          description="StyleSense is a deep learning–powered fashion recommendation system that suggests visually similar clothing items based on an uploaded image. It uses the ResNet50 convolutional neural network for feature extraction to capture visual patterns such as color, texture, and style. These features are compared with a precomputed dataset using Euclidean distance to retrieve the most visually similar fashion items. The system is deployed with Streamlit and provides a simple interface where users can upload clothing images and instantly receive fashion recommendations."
+          description="StyleSense is a deep learning–powered fashion recommendation system that suggests visually similar clothing items from an uploaded image. It leverages ResNet50 for feature extraction and uses similarity matching to retrieve the most relevant results. Deployed with Streamlit, it provides a simple interface for instant recommendations."
           tags={[
             "Python",
             "TensorFlow",
