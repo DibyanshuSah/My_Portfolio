@@ -119,6 +119,7 @@ const Projects = () => {
             "Python",
           ]}
           link="https://github.com/DibyanshuSah/aegis-forensics"
+          demoLink="https://aegis-forensics-cfu4ugtgfne3bk85ztg7z6.streamlit.app/"
         />
 
         {/* SkillForge-AI */}
