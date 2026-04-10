@@ -33,7 +33,7 @@ const achievements = [
   {
     title: "CodeChef",
     description:
-      "Peak Rating: 1406 | 450+ Problems Solved | Active competitive programmer",
+      "Peak Rating: 1435 | 450+ Problems Solved | Active competitive programmer",
     link: "https://www.codechef.com/users/rishu2202",
     type: "profile",
   },
