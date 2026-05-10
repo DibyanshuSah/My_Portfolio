@@ -29,7 +29,7 @@ function App() {
       <Achievements />
       <Contact />
 
-      {/* 🔵 Footer Bottom */}
+      {}
       <Footer />
     </div>
   );

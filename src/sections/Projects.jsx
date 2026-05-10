@@ -1,14 +1,7 @@
 import React from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-
-// ---------------- PROJECT CARD COMPONENT ---------------- //
 const ProjectCard = ({
-  title,
-  subtitle,
-  description,
-  tags,
-  link,
-  demoLink,
+  title,subtitle,description,tags,link,demoLink,
 }) => (
   <div
     className="
@@ -92,7 +85,6 @@ const ProjectCard = ({
   </div>
 );
 
-// ---------------- MAIN PROJECT SECTION ---------------- //
 const Projects = () => {
   return (
     <section

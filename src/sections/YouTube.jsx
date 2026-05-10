@@ -44,7 +44,7 @@ const YouTube = () => {
           345+ subscribers • 25+ videos
         </p>
 
-        {/* Description */}
+        {}
         <p className="text-lg text-gray-300 leading-relaxed mb-6">
           <strong className="text-blue-300">Founder & Educator – JEE Competitors</strong><br />
           Established the JEE Competitors YouTube channel, mentoring
@@ -56,10 +56,7 @@ const YouTube = () => {
         <a
           href="https://www.youtube.com/@JEEBRAINS-jh4i"
           target="_blank"
-          className="
-            inline-block px-6 py-3 rounded-lg 
-            bg-green-600 hover:bg-green-700
-            text-white font-semibold
+          className="inline-block px-6 py-3 rounded-lg bg-green-600 hover:bg-green-700text-white font-semibold
             transition-all duration-200
           "
         >

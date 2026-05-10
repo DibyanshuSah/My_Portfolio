@@ -29,7 +29,7 @@ const Hero = () => {
         & Cybersecurity with a passion for impactful innovation.
       </p>
 
-      {/* Direct Download CV */}
+      {}
       <a
         href="https://drive.google.com/uc?export=download&id=12zQDzwDyd2SUEreOKAKBsotXogBuA-YL"
         className="

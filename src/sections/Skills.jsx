@@ -1,6 +1,5 @@
 import React from "react";
 
-// ------------------ IMPORT ALL SKILL ICONS ------------------ //
 import pythonImg from "../assets/skills/python.png";
 import cppImg from "../assets/skills/cpp.png";
 import jsImg from "../assets/skills/js.png";
@@ -24,8 +23,6 @@ import windowsImg from "../assets/skills/windows.png";
 import linuxImg from "../assets/skills/linux.png";
 import autopsyImg from "../assets/skills/autopsy.png"
 
-
-// ------------------ REUSABLE PILL COMPONENT ------------------ //
 const Pill = ({ icon, name }) => (
   <div className="flex items-center gap-2 px-4 py-2 bg-[#111827] rounded-xl shadow border border-gray-700">
     <img src={icon} alt={name} className="w-6 h-6" />
@@ -33,8 +30,6 @@ const Pill = ({ icon, name }) => (
   </div>
 );
 
-
-// ------------------ REUSABLE SKILL CATEGORY BOX ------------------ //
 const SkillBox = ({ title, skills }) => (
   <div
     className="
@@ -56,9 +51,6 @@ const SkillBox = ({ title, skills }) => (
     </div>
   </div>
 );
-
-
-// ------------------ MAIN SKILLS SECTION ------------------ //
 const Skills = () => {
   return (
     <section id="skills" className="py-20 text-white bg-[#050B16]">
@@ -82,7 +74,7 @@ const Skills = () => {
             ]}
           />
 
-          {/* Databases */}
+          {}
           <SkillBox
             title="Databases"
             skills={[
@@ -91,7 +83,7 @@ const Skills = () => {
             ]}
           />
 
-          {/* Machine Learning */}
+          {}
           <SkillBox
             title="Machine Learning"
             skills={[
@@ -105,7 +97,7 @@ const Skills = () => {
             ]}
           />
 
-          {/* Cybersecurity */}
+          {}
           <SkillBox
             title="Cybersecurity"
             skills={[
@@ -118,7 +110,7 @@ const Skills = () => {
             ]}
           />
 
-          {/* Operating Systems */}
+          {}
           <SkillBox
             title="Operating Systems"
             skills={[
