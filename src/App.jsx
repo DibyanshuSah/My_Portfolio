@@ -16,6 +16,10 @@ function App() {
     <div className="bg-[#050B16] text-white">
       {}
       <Navbar />
+
+      {}
+      <Navbar />
+
       {}
       <Hero />
       <About />

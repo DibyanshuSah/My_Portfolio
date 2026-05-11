@@ -46,7 +46,6 @@ const Skills = () => {
   return (
     <section id="skills" className="py-20 text-white bg-[#050B16]">
       <div className="max-w-6xl mx-auto px-6">
-
         <h2 className="text-4xl font-bold text-center mb-6">Skills & Technologies</h2>
 <div className="w-28 h-1 bg-blue-500 mx-auto mb-12"></div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -62,16 +61,14 @@ const Skills = () => {
             ]}
           />
           {}
-          <SkillBox
-            title="Databases"
+          <SkillBox title="Databases"
             skills={[
               { name: "SQL", icon: sqlImg },
               { name: "MongoDB", icon: mongoImg },
             ]}
           />
           {}
-          <SkillBox
-            title="Machine Learning"
+          <SkillBox title="Machine Learning"
             skills={[
               { name: "TensorFlow", icon: tfImg },
               { name: "Keras", icon: kerasImg },
@@ -83,8 +80,7 @@ const Skills = () => {
             ]}
           />
           {}
-          <SkillBox
-            title="Cybersecurity"
+          <SkillBox title="Cybersecurity"
             skills={[
               { name: "Burp Suite", icon: burpImg },
               { name: "Wireshark", icon: wiresharkImg },
@@ -95,8 +91,7 @@ const Skills = () => {
             ]}
           />
           {}
-          <SkillBox
-            title="Operating Systems"
+          <SkillBox title="Operating Systems"
             skills={[
               { name: "Windows", icon: windowsImg },
               { name: "Kali Linux", icon: linuxImg },

@@ -4,18 +4,30 @@ import { FaAward, FaExternalLinkAlt } from "react-icons/fa";
 const achievements = [
   {
     title: "Coursera Certification",
+<<<<<<< HEAD
     description:"Completed Stanford & DeepLearning.AI course on Unsupervised Learning, Recommenders, and Reinforcement Learning.",
+=======
+    description: "Completed Stanford & DeepLearning.AI course on Unsupervised Learning, Recommenders, and Reinforcement Learning.",
+>>>>>>> 73c905782d15792eba4d70088291f33389ae0132
     link: "https://drive.google.com/file/d/1KgFMLBWaLiVCxSulVuFVuc4BdOM90zRj/view?usp=sharing",
     type: "certificate",
   },
   {
+<<<<<<< HEAD
     title: "Infosys AI Certification",
+=======
+    title:"Infosys AI Certification",
+>>>>>>> 73c905782d15792eba4d70088291f33389ae0132
     description:"Gained a solid understanding of core Artificial Intelligence concepts, including ML fundamentals and real-world industry applications.",
     link: "https://drive.google.com/file/d/1ZN56VorSKBYtrHizPT3aSFbpYTtMIkJK/view?usp=sharing",
     type: "certificate",
   },
   {
+<<<<<<< HEAD
     title: "Infosys NLP Certification",
+=======
+    title:"Infosys NLP Certification",
+>>>>>>> 73c905782d15792eba4d70088291f33389ae0132
     description:"Learned essential NLP techniques for processing and interpreting human language, including sentiment analysis and text preprocessing.",
     link: "https://drive.google.com/file/d/1A48MXwJ-Zcbm6MGmcZw1068H74P1gugW/view?usp=sharing",
     type: "certificate",
@@ -27,8 +39,13 @@ const achievements = [
     type: "profile",
   },
   {
+<<<<<<< HEAD
     title: "CodeChef",
     description:"Peak Rating: 1435 | 450+ Problems Solved | Active competitive programmer",
+=======
+    title:"CodeChef",
+    description: "Peak Rating: 1435 | 450+ Problems Solved | Active competitive programmer",
+>>>>>>> 73c905782d15792eba4d70088291f33389ae0132
     link: "https://www.codechef.com/users/rishu2202",
     type: "profile",
   },
@@ -43,6 +60,7 @@ const Achievements = () => {
       <h2 className="text-4xl font-bold text-center">
         Achievements & Certifications
       </h2>
+<<<<<<< HEAD
       {}
       <div className="w-32 h-1 bg-blue-500 mx-auto mt-2 mb-12 rounded-full"></div>
       {}
@@ -51,6 +69,16 @@ const Achievements = () => {
           <div
             key={index}
             className="bg-[#111827] p-6 rounded-xl border border-blue-500 hover:border-blue-400 hover:shadow-[0_0_15px_rgba(29,78,216,0.4)] transition-all duration-300">
+=======
+
+      {}
+      <div className="w-32 h-1 bg-blue-500 mx-auto mt-2 mb-12 rounded-full"></div>
+
+      {}
+      <div className="grid md:grid-cols-2 gap-8">
+        {achievements.map((item, index) => (
+          <div key={index} className=" bg-[#111827] p-6 rounded-xl border border-blue-500 hover:border-blue-400 hover:shadow-[0_0_15px_rgba(29,78,216,0.4)] transition-all duration-300" >
+>>>>>>> 73c905782d15792eba4d70088291f33389ae0132
             <div className="flex items-center gap-3 mb-3">
               <FaAward className="text-blue-400 text-2xl" />
               <h3 className="text-xl font-semibold text-blue-300">
@@ -58,12 +86,16 @@ const Achievements = () => {
               </h3>
             </div>
             <p className="text-gray-300 mb-4">{item.description}</p>
+<<<<<<< HEAD
             <a
               href={item.link}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300"
             >
+=======
+            <a href={item.link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300">
+>>>>>>> 73c905782d15792eba4d70088291f33389ae0132
               {item.type === "profile"
                 ? "View Profile"
                 : "View Certificate"}
@@ -75,4 +107,8 @@ const Achievements = () => {
     </section>
   );
 };
+<<<<<<< HEAD
 export default Achievements;
+=======
+export default Achievements;
+>>>>>>> 73c905782d15792eba4d70088291f33389ae0132

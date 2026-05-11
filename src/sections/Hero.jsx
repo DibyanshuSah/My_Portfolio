@@ -26,9 +26,13 @@ const Hero = () => {
         & Cybersecurity with a passion for impactful innovation.
       </p>
       {}
+<<<<<<< HEAD
       <a
         href="https://drive.google.com/uc?export=download&id=12zQDzwDyd2SUEreOKAKBsotXogBuA-YL"
         className="bg-blue-600 px-7 py-3 rounded-lg font-semibold hover:bg-blue-500 transition">
+=======
+      <a href="https://drive.google.com/uc?export=download&id=12zQDzwDyd2SUEreOKAKBsotXogBuA-YL" className=" bg-blue-600 px-7 py-3 rounded-lg font-semibold hover:bg-blue-500 transition">
+>>>>>>> 73c905782d15792eba4d70088291f33389ae0132
         Download CV
       </a>
     </section>
