@@ -15,10 +15,10 @@ function App() {
   return (
     <div className="bg-[#050B16] text-white">
 
-      {/* 🔵 Navbar Top */}
+      {}
       <Navbar />
 
-      {/* 🔵 All Website Sections */}
+      {}
       <Hero />
       <About />
       <YouTube />
