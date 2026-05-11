@@ -95,10 +95,8 @@ const Projects = () => {
         Featured Projects
       </h2>
       <div className="w-28 h-1 bg-blue-500 mx-auto mb-12"></div>
-
       <div className="grid md:grid-cols-2 gap-10">
-
-        {/* Aegis Forensics */}
+        {}
         <ProjectCard
           title="Aegis Forensics"
           subtitle="DFIR Triage & File Analysis Tool"
@@ -130,8 +128,7 @@ const Projects = () => {
           link="https://github.com/DibyanshuSah/skillforge-AI"
           demoLink="https://huggingface.co/spaces/rishusah/skillforge-ai"
         />
-
-        {/* CVisionAI */}
+        {}
         <ProjectCard
           title="CVisionAI"
           subtitle="AI-Powered Resume Intelligence Engine"
@@ -145,8 +142,7 @@ const Projects = () => {
           link="https://github.com/DibyanshuSah/Resume-Screening-With-Python"
           demoLink="https://resume-screening-with-python-kauwqmhgxqbraz6o3bphzz.streamlit.app/"
         />
-
-        {/* StyleSense */}
+        {}
         <ProjectCard
           title="StyleSense"
           subtitle="AI-Based Fashion Recommendation System"
@@ -164,5 +160,4 @@ const Projects = () => {
     </section>
   );
 };
-
 export default Projects;

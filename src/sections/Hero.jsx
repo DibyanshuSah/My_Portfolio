@@ -4,11 +4,9 @@ import { Typewriter } from "react-simple-typewriter";
 const Hero = () => {
   return (
     <section className="pt-24 pb-10 flex flex-col justify-center items-center text-center px-6 text-white">
-
       <h2 className="text-3xl md:text-4xl font-bold mb-2">
         Hi, I am <span className="text-blue-400">Dibyanshu Sah</span>
       </h2>
-
       <h3 className="text-2xl md:text-3xl text-blue-300 font-semibold mb-6 h-10">
         <Typewriter
           words={[
@@ -23,25 +21,17 @@ const Hero = () => {
           delaySpeed={1000}
         />
       </h3>
-
       <p className="max-w-3xl text-gray-300 text-lg leading-relaxed mb-8">
         Building intelligent systems across Machine Learning, NLP, Computer Vision
         & Cybersecurity with a passion for impactful innovation.
       </p>
-
       {}
       <a
         href="https://drive.google.com/uc?export=download&id=12zQDzwDyd2SUEreOKAKBsotXogBuA-YL"
-        className="
-          bg-blue-600 px-7 py-3 rounded-lg font-semibold
-          hover:bg-blue-500 transition
-        "
-      >
+        className="bg-blue-600 px-7 py-3 rounded-lg font-semibold hover:bg-blue-500 transition">
         Download CV
       </a>
-
     </section>
   );
 };
-
 export default Hero;
