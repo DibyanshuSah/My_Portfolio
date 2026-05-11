@@ -32,18 +32,10 @@ const Pill = ({ icon, name }) => (
 
 const SkillBox = ({ title, skills }) => (
   <div
-    className="
-      bg-[#0f1629] p-6 rounded-2xl shadow-lg
-      border border-blue-500
-      hover:border-blue-400
-      transition-all duration-300
-      hover:shadow-[0_0_15px_rgba(59,130,246,0.5)]
-    "
-  >
+    className="bg-[#0f1629] p-6 rounded-2xl shadow-lg border border-blue-500 hover:border-blue-400 transition-all duration-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.5)]">
     <h3 className="text-2xl font-bold text-center mb-6 text-blue-400">
       {title}
     </h3>
-
     <div className="flex flex-wrap justify-center gap-4">
       {skills.map((skill, i) => (
         <Pill key={i} icon={skill.icon} name={skill.name} />
@@ -55,14 +47,10 @@ const Skills = () => {
   return (
     <section id="skills" className="py-20 text-white bg-[#050B16]">
       <div className="max-w-6xl mx-auto px-6">
-
         <h2 className="text-4xl font-bold text-center mb-6">Skills & Technologies</h2>
 <div className="w-28 h-1 bg-blue-500 mx-auto mb-12"></div>
-
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-
-          {/* Programming Languages */}
+          {}
           <SkillBox
             title="Programming Languages"
             skills={[
@@ -75,8 +63,7 @@ const Skills = () => {
           />
 
           {}
-          <SkillBox
-            title="Databases"
+          <SkillBox title="Databases"
             skills={[
               { name: "SQL", icon: sqlImg },
               { name: "MongoDB", icon: mongoImg },
@@ -84,8 +71,7 @@ const Skills = () => {
           />
 
           {}
-          <SkillBox
-            title="Machine Learning"
+          <SkillBox title="Machine Learning"
             skills={[
               { name: "TensorFlow", icon: tfImg },
               { name: "Keras", icon: kerasImg },
@@ -98,8 +84,7 @@ const Skills = () => {
           />
 
           {}
-          <SkillBox
-            title="Cybersecurity"
+          <SkillBox title="Cybersecurity"
             skills={[
               { name: "Burp Suite", icon: burpImg },
               { name: "Wireshark", icon: wiresharkImg },
@@ -111,14 +96,12 @@ const Skills = () => {
           />
 
           {}
-          <SkillBox
-            title="Operating Systems"
+          <SkillBox title="Operating Systems"
             skills={[
               { name: "Windows", icon: windowsImg },
               { name: "Kali Linux", icon: linuxImg },
             ]}
           />
-
         </div>
       </div>
     </section>
