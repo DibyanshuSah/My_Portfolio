@@ -42,7 +42,7 @@ const Education = () => {
           subtitle="National Institute of Technology, Rourkela"
           img={nitImg}
           status="2023 – Present"
-          score="CGPA: 8.27"
+          score="CGPA: 8.33"
           description="Currently pursuing B.Tech in Food Process Engineering at NIT Rourkela with strong foundations in engineering principles, research and applied technologies."
         />
         {}
