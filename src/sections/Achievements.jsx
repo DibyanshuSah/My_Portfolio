@@ -22,13 +22,13 @@ const achievements = [
   },
   {
     title: "LeetCode",
-    description:"Solved 350+ DSA problems with a current rating of 1516 and consistent problem-solving practice.",
+    description:"Solved 400+ DSA problems with a current rating of 1516 and consistent problem-solving practice.",
     link: "https://leetcode.com/u/Rishu_05/",
     type: "profile",
   },
   {
     title: "CodeChef",
-    description:"Solved 450+ coding problems with a peak rating of 1435 while actively participating in contests.",
+    description:"Solved 500+ coding problems with a peak rating of 1435 while actively participating in contests.",
     link: "https://www.codechef.com/users/rishu2202",
     type: "profile",
   },
