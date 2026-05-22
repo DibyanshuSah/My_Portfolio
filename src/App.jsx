@@ -9,7 +9,6 @@ import Projects from "./sections/Projects";
 import Experience from "./sections/Experience";
 import Education from "./sections/Education";
 import Achievements from "./sections/Achievements";
-import Contact from "./sections/Contact";
 
 function App() {
   return (
@@ -29,7 +28,6 @@ function App() {
       <Experience />
       <Education />
       <Achievements />
-      <Contact />
       {}
       <Footer />
     </div>
