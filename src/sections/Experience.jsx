@@ -19,7 +19,7 @@ const Experience = () => {
           <div className="bg-[#111827] p-6 rounded-xl shadow-xl border border-blue-500 hover:border-blue-400 transition-all duration-300 hover:shadow-[0_0_15px_rgba(29,78,216,0.4)]">
             {}
             <h3 className="text-2xl font-bold text-blue-300 leading-tight">
-              Cyber Security Research
+              Cyber Security Analyst
             </h3>
             {}
             <p className="text-blue-400 font-medium mb-4">Research Project</p>
