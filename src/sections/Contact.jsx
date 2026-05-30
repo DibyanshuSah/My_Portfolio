@@ -1,9 +1,4 @@
-import {
-  FaEnvelope,
-  FaInstagram,
-  FaLinkedin,
-  FaMapMarkerAlt,
-} from "react-icons/fa";
+import {FaEnvelope,FaInstagram,FaLinkedin,FaMapMarkerAlt,} from "react-icons/fa";
 
 const Contact = () => {
   return (
