@@ -9,17 +9,13 @@ import Projects from "./sections/Projects";
 import Experience from "./sections/Experience";
 import Education from "./sections/Education";
 import Achievements from "./sections/Achievements";
+import Contact from "./sections/Contact";
 
 function App() {
   return (
     <div className="bg-[#050B16] text-white">
-      {}
       <Navbar />
 
-      {}
-      <Navbar />
-
-      {}
       <Hero />
       <About />
       <YouTube />
@@ -28,9 +24,11 @@ function App() {
       <Experience />
       <Education />
       <Achievements />
-      {}
+      <Contact />
+
       <Footer />
     </div>
   );
 }
+
 export default App;
