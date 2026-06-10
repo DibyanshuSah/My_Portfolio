@@ -30,7 +30,7 @@ const Hero = () => {
         Cybersecurity to create meaningful and impactful solutions.
       </p>
       <a
-        href="https://drive.google.com/uc?export=download&id=1qz__B_jxKJ-R1nKvCTTqEaYkiYa0Jfm0"
+        href="https://drive.google.com/uc?export=download&id=1QzHqfD89HVP3bfEAGVlMjObB3jFqo919"
         className="bg-blue-600 px-7 py-3 rounded-lg font-semibold hover:bg-blue-500 transition"
       >
         Download CV
