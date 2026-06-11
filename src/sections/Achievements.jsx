@@ -22,7 +22,7 @@ const achievements = [
   },
   {
     title: "LeetCode",
-    description:"Solved 400+ DSA problems with a current rating of 1516 and consistent problem-solving practice.",
+    description:"Solved 400+ DSA problems with a current rating of 1542 and consistent problem-solving practice.",
     link: "https://leetcode.com/u/Rishu_05/",
     type: "profile",
   },
