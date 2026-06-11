@@ -28,7 +28,7 @@ const achievements = [
   },
   {
     title: "CodeChef",
-    description:"Solved 500+ coding problems with a peak rating of 1435 while actively participating in contests.",
+    description:"Solved 500+ coding problems with a peak rating of 1438 while actively participating in contests.",
     link: "https://www.codechef.com/users/rishu2202",
     type: "profile",
   },
