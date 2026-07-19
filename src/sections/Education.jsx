@@ -30,6 +30,7 @@ const EduCard = ({ title, subtitle, img, status, score, description }) => (
     </div>
   </div>
 );
+
 const Education = () => {
   return (
     <section id="education" className="py-20 text-white bg-[#050B16]">
