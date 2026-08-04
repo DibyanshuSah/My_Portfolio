@@ -45,8 +45,10 @@ const Experience = () => {
               </li>
 
               <li>
-                • Built OCR-based document processing workflows to automate
-                information extraction and improve operational efficiency.
+                • Built{" "}
+                <strong className="text-blue-400">OCR-based</strong> document
+                processing workflows to automate information extraction and
+                improve operational efficiency.
               </li>
 
               <li>
