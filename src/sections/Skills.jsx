@@ -17,7 +17,9 @@ import jupyterImg from "../assets/skills/jupyter.jpg";
 import antigravityImg from "../assets/skills/antigravity.png";
 import huggingFaceImg from "../assets/skills/hugging_face.png";
 import ollamaImg from "../assets/skills/ollama.png";
+import langchainImg from "../assets/skills/langchain.png";
 import chatgptImg from "../assets/skills/chatgpt.png";
+import claudeImg from "../assets/skills/claude.png";
 import burpImg from "../assets/skills/burp.jpg";
 import wiresharkImg from "../assets/skills/wireshark.png";
 import nmapImg from "../assets/skills/nmap.png";
@@ -28,8 +30,12 @@ import windowsImg from "../assets/skills/windows.png";
 import linuxImg from "../assets/skills/linux.png";
 
 const Pill = ({ icon, name }) => (
-  <div className="flex items-center gap-2 px-4 py-2 bg-[#111827] rounded-xl shadow border border-gray-700 hover:border-blue-400 transition-all duration-300">
-    <img src={icon} alt={name} className="w-6 h-6 object-contain" />
+  <div className="flex items-center gap-2 px-4 py-2 bg-[#111827] rounded-xl shadow border border-gray-700 hover:border-blue-500 transition-all duration-300">
+    <img
+      src={icon}
+      alt={name}
+      className="w-6 h-6 object-contain"
+    />
     <span className="text-sm">{name}</span>
   </div>
 );
@@ -40,14 +46,20 @@ const SkillBox = ({ title, skills }) => (
     </h3>
     <div className="flex flex-wrap justify-center gap-4">
       {skills.map((skill, i) => (
-        <Pill key={i} icon={skill.icon} name={skill.name} />
+        <Pill
+          key={i}
+          icon={skill.icon}
+          name={skill.name}
+        />
       ))}
     </div>
   </div>
 );
 const Skills = () => {
   return (
-    <section id="skills" className="py-20 text-white bg-[#050B16]">
+    <section
+      id="skills"
+      className="py-20 text-white bg-[#050B16]">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-6">
           Skills & Technologies
@@ -63,16 +75,14 @@ const Skills = () => {
               { name: "JavaScript", icon: jsImg },
               { name: "HTML", icon: htmlImg },
               { name: "CSS", icon: cssImg },
-            ]}
-          />
+            ]}/>
           {/* Databases */}
           <SkillBox
             title="Databases"
             skills={[
               { name: "SQL", icon: sqlImg },
               { name: "MongoDB", icon: mongoImg },
-            ]}
-          />
+            ]}/>
           {/* Machine Learning */}
           <SkillBox
             title="Machine Learning"
@@ -84,18 +94,18 @@ const Skills = () => {
               { name: "Pandas", icon: pandasImg },
               { name: "Streamlit", icon: streamlitImg },
               { name: "Jupyter Notebook", icon: jupyterImg },
-            ]}
-          />
+            ]}/>
           {/* AI & GenAI */}
           <SkillBox
             title="AI & GenAI"
             skills={[
-              { name: "Antigravity CLI", icon: antigravityImg },
+              { name: "LangChain", icon: langchainImg },
               { name: "Hugging Face", icon: huggingFaceImg },
               { name: "Ollama", icon: ollamaImg },
+              { name: "Antigravity CLI", icon: antigravityImg },
               { name: "ChatGPT", icon: chatgptImg },
-            ]}
-          />
+              { name: "Claude", icon: claudeImg },
+            ]}/>
           {/* Cybersecurity */}
           <SkillBox
             title="Cybersecurity"
@@ -106,16 +116,14 @@ const Skills = () => {
               { name: "SQLMap", icon: sqlmapImg },
               { name: "Nikto", icon: niktoImg },
               { name: "Autopsy", icon: autopsyImg },
-            ]}
-          />
+            ]}/>
           {/* Operating Systems */}
           <SkillBox
             title="Operating Systems"
             skills={[
               { name: "Windows", icon: windowsImg },
               { name: "Kali Linux", icon: linuxImg },
-            ]}
-          />
+            ]}/>
         </div>
       </div>
     </section>
