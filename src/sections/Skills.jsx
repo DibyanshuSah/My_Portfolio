@@ -5,10 +5,8 @@ import cppImg from "../assets/skills/cpp.png";
 import jsImg from "../assets/skills/js.png";
 import htmlImg from "../assets/skills/html.png";
 import cssImg from "../assets/skills/css.png";
-
 import sqlImg from "../assets/skills/sql.png";
 import mongoImg from "../assets/skills/mongo.png";
-
 import tfImg from "../assets/skills/tensorflow.png";
 import kerasImg from "../assets/skills/keras.png";
 import sklearnImg from "../assets/skills/sklearn.png";
@@ -16,34 +14,30 @@ import numpyImg from "../assets/skills/numpy.png";
 import pandasImg from "../assets/skills/pandas.png";
 import streamlitImg from "../assets/skills/streamlit.jpg";
 import jupyterImg from "../assets/skills/jupyter.jpg";
-
 import antigravityImg from "../assets/skills/antigravity.png";
 import huggingFaceImg from "../assets/skills/hugging_face.png";
 import ollamaImg from "../assets/skills/ollama.png";
-
+import chatgptImg from "../assets/skills/chatgpt.png";
 import burpImg from "../assets/skills/burp.jpg";
 import wiresharkImg from "../assets/skills/wireshark.png";
 import nmapImg from "../assets/skills/nmap.png";
 import sqlmapImg from "../assets/skills/sqlmap.png";
 import niktoImg from "../assets/skills/nikto.png";
 import autopsyImg from "../assets/skills/autopsy.png";
-
 import windowsImg from "../assets/skills/windows.png";
 import linuxImg from "../assets/skills/linux.png";
 
 const Pill = ({ icon, name }) => (
-  <div className="flex items-center gap-2 px-4 py-2 bg-[#111827] rounded-xl shadow border border-gray-700">
+  <div className="flex items-center gap-2 px-4 py-2 bg-[#111827] rounded-xl shadow border border-gray-700 hover:border-blue-400 transition-all duration-300">
     <img src={icon} alt={name} className="w-6 h-6 object-contain" />
     <span className="text-sm">{name}</span>
   </div>
 );
-
 const SkillBox = ({ title, skills }) => (
   <div className="bg-[#0f1629] p-6 rounded-2xl shadow-lg border border-blue-500 hover:border-blue-400 transition-all duration-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.5)]">
     <h3 className="text-2xl font-bold text-center mb-6 text-blue-400">
       {title}
     </h3>
-
     <div className="flex flex-wrap justify-center gap-4">
       {skills.map((skill, i) => (
         <Pill key={i} icon={skill.icon} name={skill.name} />
@@ -51,7 +45,6 @@ const SkillBox = ({ title, skills }) => (
     </div>
   </div>
 );
-
 const Skills = () => {
   return (
     <section id="skills" className="py-20 text-white bg-[#050B16]">
@@ -59,9 +52,7 @@ const Skills = () => {
         <h2 className="text-4xl font-bold text-center mb-6">
           Skills & Technologies
         </h2>
-
         <div className="w-28 h-1 bg-blue-500 mx-auto mb-12"></div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {/* Programming Languages */}
           <SkillBox
@@ -74,7 +65,6 @@ const Skills = () => {
               { name: "CSS", icon: cssImg },
             ]}
           />
-
           {/* Databases */}
           <SkillBox
             title="Databases"
@@ -83,7 +73,6 @@ const Skills = () => {
               { name: "MongoDB", icon: mongoImg },
             ]}
           />
-
           {/* Machine Learning */}
           <SkillBox
             title="Machine Learning"
@@ -97,7 +86,6 @@ const Skills = () => {
               { name: "Jupyter Notebook", icon: jupyterImg },
             ]}
           />
-
           {/* AI & GenAI */}
           <SkillBox
             title="AI & GenAI"
@@ -105,9 +93,9 @@ const Skills = () => {
               { name: "Antigravity CLI", icon: antigravityImg },
               { name: "Hugging Face", icon: huggingFaceImg },
               { name: "Ollama", icon: ollamaImg },
+              { name: "ChatGPT", icon: chatgptImg },
             ]}
           />
-
           {/* Cybersecurity */}
           <SkillBox
             title="Cybersecurity"
@@ -120,7 +108,6 @@ const Skills = () => {
               { name: "Autopsy", icon: autopsyImg },
             ]}
           />
-
           {/* Operating Systems */}
           <SkillBox
             title="Operating Systems"
