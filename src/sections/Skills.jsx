@@ -34,8 +34,7 @@ const Pill = ({ icon, name }) => (
     <img
       src={icon}
       alt={name}
-      className="w-6 h-6 object-contain"
-    />
+      className="w-6 h-6 object-contain"/>
     <span className="text-sm">{name}</span>
   </div>
 );
@@ -49,8 +48,7 @@ const SkillBox = ({ title, skills }) => (
         <Pill
           key={i}
           icon={skill.icon}
-          name={skill.name}
-        />
+          name={skill.name}/>
       ))}
     </div>
   </div>
@@ -76,13 +74,6 @@ const Skills = () => {
               { name: "HTML", icon: htmlImg },
               { name: "CSS", icon: cssImg },
             ]}/>
-          {/* Databases */}
-          <SkillBox
-            title="Databases"
-            skills={[
-              { name: "SQL", icon: sqlImg },
-              { name: "MongoDB", icon: mongoImg },
-            ]}/>
           {/* Machine Learning */}
           <SkillBox
             title="Machine Learning"
@@ -106,6 +97,15 @@ const Skills = () => {
               { name: "ChatGPT", icon: chatgptImg },
               { name: "Claude", icon: claudeImg },
             ]}/>
+          {/* Databases & Operating Systems */}
+          <SkillBox
+            title="Databases & Operating Systems"
+            skills={[
+              { name: "SQL", icon: sqlImg },
+              { name: "MongoDB", icon: mongoImg },
+              { name: "Windows", icon: windowsImg },
+              { name: "Kali Linux", icon: linuxImg },
+            ]}/>
           {/* Cybersecurity */}
           <SkillBox
             title="Cybersecurity"
@@ -116,13 +116,6 @@ const Skills = () => {
               { name: "SQLMap", icon: sqlmapImg },
               { name: "Nikto", icon: niktoImg },
               { name: "Autopsy", icon: autopsyImg },
-            ]}/>
-          {/* Operating Systems */}
-          <SkillBox
-            title="Operating Systems"
-            skills={[
-              { name: "Windows", icon: windowsImg },
-              { name: "Kali Linux", icon: linuxImg },
             ]}/>
         </div>
       </div>
