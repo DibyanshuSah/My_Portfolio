@@ -1,4 +1,10 @@
-import {FaEnvelope,FaInstagram,FaLinkedin,FaMapMarkerAlt,} from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaInstagram,
+  FaLinkedin,
+  FaMapMarkerAlt,
+  FaXTwitter,
+} from "react-icons/fa6";
 
 const Contact = () => {
   return (
@@ -14,11 +20,10 @@ const Contact = () => {
         Feel free to reach out anytime.
       </p>
       <div className="flex flex-wrap justify-center gap-5">
-        
         {/* Email */}
         <a
           href="mailto:dibyanshusah0@gmail.com"
-          className="bg-[#0B1630] border border-blue-500 rounded-2xl px-8 py-6 min-w-[420px] 
+          className="bg-[#0B1630] border border-blue-500 rounded-2xl px-8 py-6 min-w-[420px]
           hover:-translate-y-1 hover:shadow-[0_0_25px_rgba(59,130,246,0.35)] transition-all duration-300">
           <div className="flex items-center gap-4">
             <FaEnvelope className="text-blue-400 text-3xl flex-shrink-0" />
@@ -27,7 +32,6 @@ const Contact = () => {
             </span>
           </div>
         </a>
-
         {/* Instagram */}
         <a
           href="https://www.instagram.com/dibyanshusah/?hl=en"
@@ -42,14 +46,13 @@ const Contact = () => {
             </span>
           </div>
         </a>
-
         {/* LinkedIn */}
         <a
           href="https://www.linkedin.com/in/dibyanshu-sah-706193340/"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-[#0B1630] border border-blue-500 rounded-2xl px-7 py-6
-            min-w-[250px] hover:-translate-y-1 hover:shadow-[0_0_25px_rgba(59,130,246,0.35)] transition-all duration-300">
+          className="bg-[#0B1630] border border-blue-500 rounded-2xl px-7 py-6 min-w-[250px]
+          hover:-translate-y-1 hover:shadow-[0_0_25px_rgba(59,130,246,0.35)] transition-all duration-300">
           <div className="flex items-center gap-4">
             <FaLinkedin className="text-blue-400 text-3xl flex-shrink-0" />
             <span className="text-xl font-medium">
@@ -57,11 +60,24 @@ const Contact = () => {
             </span>
           </div>
         </a>
-
+        {/* Twitter / X */}
+        <a
+          href="https://x.com/Dibyanshusahh"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-[#0B1630] border border-blue-500 rounded-2xl px-7 py-6 min-w-[250px]
+          hover:-translate-y-1 hover:shadow-[0_0_25px_rgba(59,130,246,0.35)] transition-all duration-300">
+          <div className="flex items-center gap-4">
+            <FaXTwitter className="text-blue-400 text-3xl flex-shrink-0" />
+            <span className="text-xl font-medium">
+              X / Twitter
+            </span>
+          </div>
+        </a>
         {/* Location */}
         <div
-          className="bg-[#0B1630] border border-blue-500 rounded-2xl
-            px-7 py-6 min-w-[280px] hover:-translate-y-1 hover:shadow-[0_0_25px_rgba(59,130,246,0.35)] transition-all duration-300">
+          className="bg-[#0B1630] border border-blue-500 rounded-2xl px-7 py-6 min-w-[280px]
+          hover:-translate-y-1 hover:shadow-[0_0_25px_rgba(59,130,246,0.35)] transition-all duration-300">
           <div className="flex items-center gap-4">
             <FaMapMarkerAlt className="text-blue-400 text-3xl flex-shrink-0" />
             <span className="text-xl font-medium">
@@ -73,4 +89,5 @@ const Contact = () => {
     </section>
   );
 };
+
 export default Contact;
