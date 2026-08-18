@@ -3,8 +3,8 @@ import {
   FaInstagram,
   FaLinkedin,
   FaMapMarkerAlt,
-  FaXTwitter,
-} from "react-icons/fa6";
+  FaTwitter,
+} from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -60,7 +60,7 @@ const Contact = () => {
             </span>
           </div>
         </a>
-        {/* Twitter */}
+        {/* Twitter / X */}
         <a
           href="https://x.com/Dibyanshusahh"
           target="_blank"
