@@ -60,7 +60,7 @@ const Contact = () => {
             </span>
           </div>
         </a>
-        {/* Twitter / X */}
+        {/* Twitter */}
         <a
           href="https://x.com/Dibyanshusahh"
           target="_blank"
@@ -68,9 +68,9 @@ const Contact = () => {
           className="bg-[#0B1630] border border-blue-500 rounded-2xl px-7 py-6 min-w-[250px]
           hover:-translate-y-1 hover:shadow-[0_0_25px_rgba(59,130,246,0.35)] transition-all duration-300">
           <div className="flex items-center gap-4">
-            <FaXTwitter className="text-blue-400 text-3xl flex-shrink-0" />
+            <FaTwitter className="text-blue-400 text-3xl flex-shrink-0" />
             <span className="text-xl font-medium">
-              X / Twitter
+              Twitter / X
             </span>
           </div>
         </a>
