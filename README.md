@@ -1,6 +1,6 @@
 # 🌐 Personal Portfolio Website
 
-🔗 **Live Portfolio:** https://dibyanshu-sah.vercel.app/
+🔗 **Live Portfolio Link:** https://dibyanshu-sah.vercel.app/
 
 A modern and responsive personal portfolio website built with **React + Vite**, designed to showcase my skills, experience, projects, and achievements.
 
