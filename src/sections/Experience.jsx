@@ -1,5 +1,5 @@
 import React from "react";
-import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaMapMarkerAlt, FaExternalLinkAlt } from "react-icons/fa";
 import { BsCalendarDate } from "react-icons/bs";
 
 const Experience = () => {
@@ -9,23 +9,45 @@ const Experience = () => {
       className="py-20 px-6 max-w-6xl mx-auto text-white"
     >
       <h2 className="text-4xl font-bold text-center">Experience</h2>
+
       <div className="w-28 h-1 bg-blue-500 mx-auto mt-2 mb-12 rounded-full"></div>
 
       <div className="relative border-l-2 border-blue-500 pl-10">
-        {/* Experience 1 */}
+
+        {/* ================= EXPERIENCE 1 ================= */}
         <div className="mb-10 relative">
           <span className="absolute -left-[13px] top-2 w-6 h-6 bg-blue-500 rounded-full border-2 border-blue-300 shadow-lg" />
 
           <div className="bg-[#111827] p-6 rounded-xl shadow-xl border border-blue-500 hover:border-blue-400 transition-all duration-300 hover:shadow-[0_0_15px_rgba(29,78,216,0.4)]">
-            <h3 className="text-2xl font-bold text-blue-300 leading-tight">
-              Tech Development Intern
-            </h3>
 
-            <p className="text-blue-400 font-medium mb-4">
-              N6T Technologies Pvt. Ltd.
-            </p>
+            {/* Title + Certificate */}
+            <div className="flex items-start justify-between gap-6 flex-wrap">
 
-            <div className="flex items-center gap-6 text-gray-400 mb-4 flex-wrap">
+              <div>
+                <h3 className="text-2xl font-bold text-blue-300 leading-tight">
+                  Tech Development Intern
+                </h3>
+
+                <p className="text-blue-400 font-medium mt-1">
+                  N6T Technologies Pvt. Ltd.
+                </p>
+              </div>
+
+              {/* Certificate Button */}
+              <a
+                href="https://drive.google.com/file/d/1I0t65DqBLWOypCyoMj9DPK0XrXb5tLdc/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 px-5 py-3 rounded-lg border border-green-400 text-green-300 font-semibold bg-[#0f172a] hover:bg-green-400 hover:text-gray-900 transition-all duration-300 shadow-[0_0_12px_rgba(74,222,128,0.15)] hover:shadow-[0_0_18px_rgba(74,222,128,0.35)] whitespace-nowrap"
+              >
+                <FaExternalLinkAlt className="text-sm" />
+                Certificate
+              </a>
+
+            </div>
+
+            {/* Date + Location */}
+            <div className="flex items-center gap-6 text-gray-400 mt-6 mb-4 flex-wrap">
               <span className="flex items-center gap-2">
                 <BsCalendarDate className="text-blue-400" />
                 May 2025 – July 2025
@@ -37,18 +59,24 @@ const Experience = () => {
               </span>
             </div>
 
+            {/* Description */}
             <ul className="space-y-2 text-gray-300">
               <li>
                 • Developed and delivered a production-ready client web
-                application using <strong className="text-blue-400">Antigravity AI</strong>,
-                contributing to rapid feature development and deployment.
+                application using{" "}
+                <strong className="text-blue-400">
+                  Antigravity AI
+                </strong>
+                , contributing to rapid feature development and deployment.
               </li>
 
               <li>
                 • Built{" "}
-                <strong className="text-blue-400">OCR-based</strong> document
-                processing workflows to automate information extraction and
-                improve operational efficiency.
+                <strong className="text-blue-400">
+                  OCR-based
+                </strong>{" "}
+                document processing workflows to automate information
+                extraction and improve operational efficiency.
               </li>
 
               <li>
@@ -69,6 +97,7 @@ const Experience = () => {
               </li>
             </ul>
 
+            {/* Skills */}
             <div className="flex flex-wrap gap-2 mt-4">
               {[
                 "React.js",
@@ -90,11 +119,12 @@ const Experience = () => {
           </div>
         </div>
 
-        {/* Experience 2 */}
+        {/* ================= EXPERIENCE 2 ================= */}
         <div className="relative">
           <span className="absolute -left-[13px] top-2 w-6 h-6 bg-blue-500 rounded-full border-2 border-blue-300 shadow-lg" />
 
           <div className="bg-[#111827] p-6 rounded-xl shadow-xl border border-blue-500 hover:border-blue-400 transition-all duration-300 hover:shadow-[0_0_15px_rgba(29,78,216,0.4)]">
+
             <h3 className="text-2xl font-bold text-blue-300 leading-tight">
               Endpoint Security Consultant
             </h3>
@@ -103,6 +133,7 @@ const Experience = () => {
               Astadik Civiltech LLP
             </p>
 
+            {/* Date + Location */}
             <div className="flex items-center gap-6 text-gray-400 mb-4 flex-wrap">
               <span className="flex items-center gap-2">
                 <BsCalendarDate className="text-blue-400" />
@@ -115,11 +146,12 @@ const Experience = () => {
               </span>
             </div>
 
+            {/* Description */}
             <ul className="space-y-2 text-gray-300">
               <li>
                 • Enhanced endpoint security posture by implementing controls
-                that reduced unauthorized data movement and improved operational
-                visibility.
+                that reduced unauthorized data movement and improved
+                operational visibility.
               </li>
 
               <li>
@@ -129,9 +161,11 @@ const Experience = () => {
 
               <li>
                 • Leveraged{" "}
-                <strong className="text-blue-400">ActivTrak</strong> to monitor
-                user activity, application usage, and web access for improved
-                security oversight.
+                <strong className="text-blue-400">
+                  ActivTrak
+                </strong>{" "}
+                to monitor user activity, application usage, and web access for
+                improved security oversight.
               </li>
 
               <li>
@@ -151,6 +185,7 @@ const Experience = () => {
               </li>
             </ul>
 
+            {/* Skills */}
             <div className="flex flex-wrap gap-2 mt-4">
               {[
                 "Endpoint Security",
@@ -170,6 +205,7 @@ const Experience = () => {
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );
