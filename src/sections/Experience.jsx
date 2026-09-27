@@ -73,7 +73,7 @@ const Experience = () => {
               {[
                 "React.js",
                 "JavaScript",
-                "Antigravity AI",
+                "Antigravity CLI",
                 "OCR",
                 "Git",
                 "GitHub",
