@@ -50,7 +50,7 @@ const Experience = () => {
             <div className="flex items-center gap-6 text-gray-400 mt-6 mb-4 flex-wrap">
               <span className="flex items-center gap-2">
                 <BsCalendarDate className="text-blue-400" />
-                May 2025 – July 2025
+                June 2025 – August 2025
               </span>
 
               <span className="flex items-center gap-2">
