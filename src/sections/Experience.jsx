@@ -19,7 +19,6 @@ const Experience = () => {
           <span className="absolute -left-[13px] top-2 w-6 h-6 bg-blue-500 rounded-full border-2 border-blue-300 shadow-lg" />
 
           <div className="bg-[#111827] p-6 rounded-xl shadow-xl border border-blue-500 hover:border-blue-400 transition-all duration-300 hover:shadow-[0_0_15px_rgba(29,78,216,0.4)]">
-
             {/* Title + Certificate */}
             <div className="flex items-start justify-between gap-6 flex-wrap">
 
@@ -27,12 +26,10 @@ const Experience = () => {
                 <h3 className="text-2xl font-bold text-blue-300 leading-tight">
                   Tech Development Intern
                 </h3>
-
                 <p className="text-blue-400 font-medium mt-1">
                   N6T Technologies Pvt. Ltd.
                 </p>
               </div>
-
               {/* Certificate Button */}
               <a
                 href="https://drive.google.com/file/d/1YFj3QWoDLTYCPfjh2h6fM9i1ybipNHXA/view?usp=sharing"
