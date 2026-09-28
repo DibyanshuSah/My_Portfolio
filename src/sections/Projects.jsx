@@ -54,9 +54,7 @@ const ProjectCard = ({
           hover:border-blue-400 hover:text-blue-200
           transition-all duration-300
           shadow-[0_0_10px_rgba(59,130,246,0.35)]
-          hover:shadow-[0_0_16px_rgba(59,130,246,0.6)]
-        "
-      >
+          hover:shadow-[0_0_16px_rgba(59,130,246,0.6)]">
         <FaGithub className="text-xl" />
         GitHub
       </a>
