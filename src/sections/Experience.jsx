@@ -29,7 +29,7 @@ const Experience = () => {
                   N6T Technologies Pvt. Ltd.
                 </p>
               </div>
-              {/* Certificate Button */}
+              {/* Certificate Button Added*/}
               <a
                 href="https://drive.google.com/file/d/1YFj3QWoDLTYCPfjh2h6fM9i1ybipNHXA/view?usp=sharing"
                 target="_blank"

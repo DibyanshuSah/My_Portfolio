@@ -60,7 +60,6 @@ const ProjectCard = ({
         <FaGithub className="text-xl" />
         GitHub
       </a>
-
       {demoLink && (
         <a
           href={demoLink}
@@ -74,9 +73,7 @@ const ProjectCard = ({
             hover:border-green-400 hover:text-green-200
             transition-all duration-300
             shadow-[0_0_12px_rgba(34,197,94,0.45)]
-            hover:shadow-[0_0_18px_rgba(34,197,94,0.75)]
-          "
-        >
+            hover:shadow-[0_0_18px_rgba(34,197,94,0.75)]">
           <FaExternalLinkAlt />
           Website
         </a>
