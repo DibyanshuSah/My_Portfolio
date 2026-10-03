@@ -81,7 +81,7 @@ const Contact = () => {
           <div className="flex items-center gap-4">
             <FaMapMarkerAlt className="text-blue-400 text-3xl flex-shrink-0" />
             <span className="text-xl font-medium">
-              Rourkela, Odisha
+              Bhubaneswar, Odisha
             </span>
           </div>
         </div>
